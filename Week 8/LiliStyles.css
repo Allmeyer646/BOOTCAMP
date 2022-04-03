@@ -1,0 +1,71 @@
+h1 {
+    font-size: xx-large;
+}
+h2 {
+    font-size: x-large;
+}
+body {
+    background: rgb(172, 169, 172);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#collection { 
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://media.magic.wizards.com/images/featured/EN_Liliana_Header.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: rgb(46, 189, 189);
+}
+#pw-select {
+    color: rgb(46, 189, 189);
+    margin: 15px;
+    border-style: double;
+    border-radius: 5%;
+    text-align: center;
+    width: 40%;
+    float: center;
+}
+table {
+    border-style: ridge;
+    background: rgb(119, 91, 146);
+    width: 40%;
+    padding: 10px;
+    color:rgb(172, 169, 172);
+}
+tr:nth-child(odd) {
+    background-color: rgb(65, 65, 107);
+}
+figure {
+    float: left;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: rgb(119, 91, 146);
+    justify-self: center;
+}
+figcaption {
+    font-size: large;
+}
+.links a:hover {
+    color:rgb(155, 93, 93);
+}
+.collection a {
+    color: rgb(46, 189, 189);
+}
+.collection a:hover {
+    color: rgb(155, 93, 93);
+}
+input {
+    padding: 5px;
+    background-color: rgb(46, 189, 189);
+}
+.list {
+    border-style: ridge;
+    background: rgb(119, 91, 146);
+    width: 25%;
+    padding: 20px;
+    color:rgb(0, 0, 0);
+    justify-self: center;
+}
