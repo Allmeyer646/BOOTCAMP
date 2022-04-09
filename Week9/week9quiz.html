@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="'UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container-fluid " style="background-color: aquamarine;">
+        Fluid - fills entire width of screen.
+        <div class="row border border-dark">
+            <div class="col-sm-3 border border-dark" style="height: 100px; background-color: rgb(167, 167, 255);">
+                25% of screen
+            </div>
+            <div class="col-sm-6 border border-dark" style="height: 100px;; background-color: rgb(100, 100, 156);">
+                50% of screen
+                <div class="row border border-dark">
+                    <div class="col-sm-8 col-sm-8 border border-dark" style="height: 37.5px; background-color: rgb(218, 141, 228);">
+                        75% of parent
+                    </div>
+                    <div class="col-sm-4 col-sm-4 border border-dark" style="height: 37.5px; background-color: rgb(0, 167, 255);">
+                        25% of parent
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 border border-dark" style="height: 100px; background-color: rgb(165, 109, 160);">
+                25% of screen
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
