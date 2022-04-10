@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="'UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Lineup</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <nav class="navbar navbar-expand-sm navbar-light bg-danger">
+        <a class="navbar-brand" href="index.html">St. Louis Cardinals</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <!--  DISABLED FOR WEEK 10
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="account.html">Account</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Options</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Option One</a>
+                        <a class="dropdown-item" href="#">Option Two</a>
+                        <a class="dropdown-item" href="#">Option Three</a>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+    <h2>Cardinals Lineup</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                April 9, 2022<br>
+                Against: Pittsburgh Pirates
+            </div>
+            <div class="col-sm">
+                Starting Pitcher:  Miles Mikolas - (ERA: 4.91) 
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class ="card w-50">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="form-group">
+                            <label for="order">Order:</label>
+                            <input type="number" class="form-control" id="order">
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="form-group">
+                            <label for="player">Player Name:</label>
+                            <input type="text" class="form-control" id="player">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="position">Position:</label>
+                            <input type="text" class="form-control" id="position">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="average">Average:</label>
+                            <input type="text" class="form-control" id="average">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <button id="add" class="btn btn-primary form-control btn-sm">Add Player</button>
+                </div>
+            </div>
+        </div>
+        <table id="lineup" class="table w-75 table-striped">
+            <tr>
+                <th class="col-1">Order</th>
+                <th class="col-5">Player</th>
+                <th class="col-2">Position</th>
+                <th class="col-2">BA</th>
+                <th class="col-2">Options</th>
+            </tr>
+        </table>
+    </div>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="week10.js"></script>
+</body>
+</html>
