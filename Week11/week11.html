@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="week11.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <br>
+    <div id="main">
+        <h1>TIC-TAC-TOE</h1>
+        <div class="alert alert-dark" role="alert" id="turn">
+            X goes first
+        </div>
+        <br><br>
+        <input type="text" id="square1" onclick="markSquare1(); checkCondition();">
+        <input type="text" id="square2" onclick="markSquare2(); checkCondition();">
+        <input type="text" id="square3" onclick="markSquare3(); checkCondition();">
+        <br>
+        <input type="text" id="square4" onclick="markSquare4(); checkCondition();">
+        <input type="text" id="square5" onclick="markSquare5(); checkCondition();">
+        <input type="text" id="square6" onclick="markSquare6(); checkCondition();">
+        <br>
+        <input type="text" id="square7" onclick="markSquare7(); checkCondition();">
+        <input type="text" id="square8" onclick="markSquare8(); checkCondition();">
+        <input type="text" id="square9" onclick="markSquare9(); checkCondition();">
+        <br><br><br>
+        <button id="reset" onclick="reset()">New Game</button>
+        <br><br>
+    </div>
+    <script src="week11.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+</body>
+</html>
