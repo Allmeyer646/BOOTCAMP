@@ -1,0 +1,52 @@
+#main {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(129, 46, 138);
+    font-size: 45px;
+    font-family: Arial;
+}
+
+#square1, #square2, #square3, #square4, #square5, #square6, #square7, #square8, #square9 {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#reset {
+    box-sizing: border-box;
+    width: 95px;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 4px;
+    font: Arial;
+    background-color: rgb(71, 126, 140);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#turn {
+    font-family: Arial;
+    color: rgb(71, 126, 140);
+    font-size: 25px;
+}
+
+.alert {
+    left: 0;
+    margin: auto; 
+    position: absolute; 
+    right: 0;
+    text-align: center; 
+    top: 1em;
+    width: 33.3%;
+    z-index: 1; 
+  }
